@@ -10,7 +10,7 @@ public partial class REGISTER : System.Web.UI.Page
 {
     SqlConnection conn;
     SqlCommand cmd;
-    //string con = "Data Source=VISWANADH\\SQLEXPRESS;Initial Catalog=deduplication;Integrated Security=True";
+    //string con = "Data Source=xxxxxxxxxxxxxx;Initial Catalog=deduplication;Integrated Security=True";
     Class1 c = new Class1();
     protected void Page_Load(object sender, EventArgs e)
     {
