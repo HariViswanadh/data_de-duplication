@@ -17,7 +17,7 @@ public partial class owner1 : System.Web.UI.Page
     SqlDataReader rs;
     string status1;
     string file2, org, dup, path1, file3;
-    string con = "Data Source=VISWANADH\\SQLEXPRESS;Initial Catalog=deduplication;Integrated Security=True";
+    string con = "Data Source=xxxxxxxxxxxxx;Initial Catalog=deduplication;Integrated Security=True"; ///change the xxx place with your server name
     int a;
     Class2 c1 = new Class2();
     protected void Page_Load(object sender, EventArgs e)
