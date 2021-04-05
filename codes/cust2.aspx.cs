@@ -13,7 +13,7 @@ public partial class cust2 : System.Web.UI.Page
     SqlConnection conn;
     SqlCommand cmd;
     SqlDataReader rs;
-    string con = "Data Source=VISWANADH\\SQLEXPRESS;Initial Catalog=deduplication;Integrated Security=True";
+    string con = "Data Source=xxxxxxxxxxxxx;Initial Catalog=deduplication;Integrated Security=True";
     string type, s2;
     Class1 c = new Class1();
     Class2 c1 = new Class2();
